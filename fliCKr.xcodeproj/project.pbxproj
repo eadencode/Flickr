@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4311B5B71E8F742400A076EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5B61E8F742400A076EE /* AppDelegate.swift */; };
-		4311B5B91E8F742400A076EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5B81E8F742400A076EE /* ViewController.swift */; };
 		4311B5BC1E8F742400A076EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311B5BA1E8F742400A076EE /* Main.storyboard */; };
 		4311B5BE1E8F742400A076EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4311B5BD1E8F742400A076EE /* Assets.xcassets */; };
 		4311B5C11E8F742400A076EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4311B5BF1E8F742400A076EE /* LaunchScreen.storyboard */; };
 		4311B5CC1E8F742400A076EE /* fliCKrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5CB1E8F742400A076EE /* fliCKrTests.swift */; };
 		4311B5D71E8F742400A076EE /* fliCKrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5D61E8F742400A076EE /* fliCKrUITests.swift */; };
+		4311B5EB1E8F903000A076EE /* MoviesListControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5EA1E8F903000A076EE /* MoviesListControllerViewController.swift */; };
+		4311B5ED1E8F905400A076EE /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5EC1E8F905400A076EE /* MovieDetailViewController.swift */; };
+		4311B5F11E8FA6EC00A076EE /* MovieTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5F01E8FA6EC00A076EE /* MovieTableCell.swift */; };
+		4311B5F31E8FA70300A076EE /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5F21E8FA70300A076EE /* MovieGridCell.swift */; };
+		4311B5F51E900C1E00A076EE /* MovieDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5F41E900C1E00A076EE /* MovieDB.swift */; };
+		4311B5F71E90119500A076EE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4311B5F61E90119500A076EE /* Movie.swift */; };
+		43D2557E1E90A78900386F38 /* AppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D2557D1E90A78900386F38 /* AppUtils.swift */; };
+		7442843B8754C1AB3E555494 /* Pods_fliCKr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4218DD1C49EBF7D75CF5BA5E /* Pods_fliCKr.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4218DD1C49EBF7D75CF5BA5E /* Pods_fliCKr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fliCKr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311B5B31E8F742400A076EE /* fliCKr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fliCKr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311B5B61E8F742400A076EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4311B5B81E8F742400A076EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4311B5BB1E8F742400A076EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4311B5BD1E8F742400A076EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4311B5C01E8F742400A076EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		4311B5D21E8F742400A076EE /* fliCKrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fliCKrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4311B5D61E8F742400A076EE /* fliCKrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fliCKrUITests.swift; sourceTree = "<group>"; };
 		4311B5D81E8F742400A076EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4311B5EA1E8F903000A076EE /* MoviesListControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListControllerViewController.swift; sourceTree = "<group>"; };
+		4311B5EC1E8F905400A076EE /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		4311B5F01E8FA6EC00A076EE /* MovieTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableCell.swift; sourceTree = "<group>"; };
+		4311B5F21E8FA70300A076EE /* MovieGridCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		4311B5F41E900C1E00A076EE /* MovieDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDB.swift; sourceTree = "<group>"; };
+		4311B5F61E90119500A076EE /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		43D2557D1E90A78900386F38 /* AppUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtils.swift; sourceTree = "<group>"; };
+		45A943B46F34CC324C05CB0E /* Pods-fliCKr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fliCKr.release.xcconfig"; path = "Pods/Target Support Files/Pods-fliCKr/Pods-fliCKr.release.xcconfig"; sourceTree = "<group>"; };
+		D6268734C68CCB196FDC7941 /* Pods-fliCKr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fliCKr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fliCKr/Pods-fliCKr.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7442843B8754C1AB3E555494 /* Pods_fliCKr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		093C75BBFAAAB86931004900 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6268734C68CCB196FDC7941 /* Pods-fliCKr.debug.xcconfig */,
+				45A943B46F34CC324C05CB0E /* Pods-fliCKr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4311B5AA1E8F742400A076EE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				4311B5CA1E8F742400A076EE /* fliCKrTests */,
 				4311B5D51E8F742400A076EE /* fliCKrUITests */,
 				4311B5B41E8F742400A076EE /* Products */,
+				093C75BBFAAAB86931004900 /* Pods */,
+				DC66CBC45BDEDC22D645DB4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				4311B5B61E8F742400A076EE /* AppDelegate.swift */,
-				4311B5B81E8F742400A076EE /* ViewController.swift */,
+				43D2557D1E90A78900386F38 /* AppUtils.swift */,
+				4311B5E91E8F770600A076EE /* Clients & Data */,
+				4311B5E81E8F76FA00A076EE /* Views & Styles */,
+				4311B5E41E8F76AB00A076EE /* Controllers */,
 				4311B5BA1E8F742400A076EE /* Main.storyboard */,
 				4311B5BD1E8F742400A076EE /* Assets.xcassets */,
 				4311B5BF1E8F742400A076EE /* LaunchScreen.storyboard */,
@@ -125,6 +156,41 @@
 			path = fliCKrUITests;
 			sourceTree = "<group>";
 		};
+		4311B5E41E8F76AB00A076EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4311B5EA1E8F903000A076EE /* MoviesListControllerViewController.swift */,
+				4311B5EC1E8F905400A076EE /* MovieDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4311B5E81E8F76FA00A076EE /* Views & Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4311B5F01E8FA6EC00A076EE /* MovieTableCell.swift */,
+				4311B5F21E8FA70300A076EE /* MovieGridCell.swift */,
+			);
+			name = "Views & Styles";
+			sourceTree = "<group>";
+		};
+		4311B5E91E8F770600A076EE /* Clients & Data */ = {
+			isa = PBXGroup;
+			children = (
+				4311B5F41E900C1E00A076EE /* MovieDB.swift */,
+				4311B5F61E90119500A076EE /* Movie.swift */,
+			);
+			name = "Clients & Data";
+			sourceTree = "<group>";
+		};
+		DC66CBC45BDEDC22D645DB4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4218DD1C49EBF7D75CF5BA5E /* Pods_fliCKr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4311B5DB1E8F742400A076EE /* Build configuration list for PBXNativeTarget "fliCKr" */;
 			buildPhases = (
+				C5A4F02C06C9E3EE55CB8748 /* [CP] Check Pods Manifest.lock */,
 				4311B5AF1E8F742400A076EE /* Sources */,
 				4311B5B01E8F742400A076EE /* Frameworks */,
 				4311B5B11E8F742400A076EE /* Resources */,
+				B50A42D13D74BB36AE993266 /* [CP] Embed Pods Frameworks */,
+				4A9245D3DFFC657F424A8973 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +262,7 @@
 				TargetAttributes = {
 					4311B5B21E8F742400A076EE = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 636RY68X3J;
 						ProvisioningStyle = Automatic;
 					};
 					4311B5C61E8F742400A076EE = {
@@ -254,13 +324,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A9245D3DFFC657F424A8973 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fliCKr/Pods-fliCKr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50A42D13D74BB36AE993266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fliCKr/Pods-fliCKr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A4F02C06C9E3EE55CB8748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4311B5AF1E8F742400A076EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4311B5B91E8F742400A076EE /* ViewController.swift in Sources */,
+				4311B5F71E90119500A076EE /* Movie.swift in Sources */,
+				4311B5F51E900C1E00A076EE /* MovieDB.swift in Sources */,
 				4311B5B71E8F742400A076EE /* AppDelegate.swift in Sources */,
+				43D2557E1E90A78900386F38 /* AppUtils.swift in Sources */,
+				4311B5ED1E8F905400A076EE /* MovieDetailViewController.swift in Sources */,
+				4311B5F31E8FA70300A076EE /* MovieGridCell.swift in Sources */,
+				4311B5EB1E8F903000A076EE /* MoviesListControllerViewController.swift in Sources */,
+				4311B5F11E8FA6EC00A076EE /* MovieTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +536,10 @@
 		};
 		4311B5DC1E8F742400A076EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6268734C68CCB196FDC7941 /* Pods-fliCKr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 636RY68X3J;
 				INFOPLIST_FILE = fliCKr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ck.fliCKr;
@@ -424,8 +550,10 @@
 		};
 		4311B5DD1E8F742400A076EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A943B46F34CC324C05CB0E /* Pods-fliCKr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 636RY68X3J;
 				INFOPLIST_FILE = fliCKr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ck.fliCKr;
@@ -507,6 +635,7 @@
 				4311B5DD1E8F742400A076EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4311B5DE1E8F742400A076EE /* Build configuration list for PBXNativeTarget "fliCKrTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +644,7 @@
 				4311B5E01E8F742400A076EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4311B5E11E8F742400A076EE /* Build configuration list for PBXNativeTarget "fliCKrUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +653,7 @@
 				4311B5E31E8F742400A076EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
