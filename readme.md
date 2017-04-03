@@ -1,4 +1,4 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *fliCKr*
 
 **fliCKr** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
@@ -39,9 +39,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
@@ -49,7 +48,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - Few Auto Layout issues.
 - Spent time on understanding right assets for right views (nav / tab / icon ) 50/75/30 .. @1x/@2x/
 
-## Pods used and corresponding license within project. 
+## Pods used and attributed to corresponding license within each Pod. 
 - AFNetworking
 - ICSPullToRefresh
 - JGProgressHUD
