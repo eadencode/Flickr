@@ -213,28 +213,66 @@
                                 <rect key="frame" x="0.0" y="543" width="375" height="537"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3b-12-ONv">
-                                        <rect key="frame" x="17" y="6" width="344" height="18"/>
+                                        <rect key="frame" x="23" y="45" width="344" height="18"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mW2-4i-Cp4" customClass="YTPlayerView">
-                                        <rect key="frame" x="0.0" y="34" width="375" height="300"/>
+                                        <rect key="frame" x="0.0" y="71" width="375" height="273"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="6FR-Tb-AX9"/>
+                                            <constraint firstAttribute="height" constant="273" id="6FR-Tb-AX9"/>
                                         </constraints>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IjY-sS-x2n">
+                                        <rect key="frame" x="57" y="14" width="49" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="DhK-tI-GKN">
+                                        <rect key="frame" x="23" y="9" width="26" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="26" id="2kN-iH-1K8"/>
+                                            <constraint firstAttribute="width" constant="26" id="Y6Z-Ne-Ff9"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tomato" translatesAutoresizingMaskIntoConstraints="NO" id="sgH-cZ-1dg">
+                                        <rect key="frame" x="265" y="9" width="26" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="5fi-pa-Bh0"/>
+                                            <constraint firstAttribute="width" constant="26" id="OFw-dB-7gp"/>
+                                            <constraint firstAttribute="height" constant="26" id="QA5-TP-OfE"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="26" id="SR8-2E-FKP"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotten" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1E-YQ-3p5">
+                                        <rect key="frame" x="299" y="14" width="49" height="17"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstItem="P3b-12-ONv" firstAttribute="top" secondItem="XJF-n0-ImH" secondAttribute="top" constant="6" id="0HW-8V-IEJ"/>
+                                    <constraint firstItem="P3b-12-ONv" firstAttribute="top" secondItem="XJF-n0-ImH" secondAttribute="top" constant="45" id="0HW-8V-IEJ"/>
                                     <constraint firstAttribute="trailing" secondItem="mW2-4i-Cp4" secondAttribute="trailing" id="1JX-0k-Rvp"/>
+                                    <constraint firstItem="IjY-sS-x2n" firstAttribute="leading" secondItem="DhK-tI-GKN" secondAttribute="trailing" constant="8" id="1Y1-NH-lu1"/>
+                                    <constraint firstItem="W1E-YQ-3p5" firstAttribute="top" secondItem="XJF-n0-ImH" secondAttribute="top" constant="14" id="2xH-Zh-uBY"/>
+                                    <constraint firstItem="DhK-tI-GKN" firstAttribute="top" secondItem="XJF-n0-ImH" secondAttribute="top" constant="9" id="BiN-ai-0Za"/>
                                     <constraint firstItem="mW2-4i-Cp4" firstAttribute="leading" secondItem="XJF-n0-ImH" secondAttribute="leading" id="CdL-g0-DRR"/>
-                                    <constraint firstItem="mW2-4i-Cp4" firstAttribute="top" secondItem="P3b-12-ONv" secondAttribute="bottom" constant="10" id="OdA-VB-4tt"/>
-                                    <constraint firstItem="P3b-12-ONv" firstAttribute="leading" secondItem="XJF-n0-ImH" secondAttribute="leading" constant="17" id="QVX-6b-cYt"/>
+                                    <constraint firstItem="DhK-tI-GKN" firstAttribute="leading" secondItem="XJF-n0-ImH" secondAttribute="leading" constant="23" id="Mgz-Ou-kE0"/>
+                                    <constraint firstItem="mW2-4i-Cp4" firstAttribute="top" secondItem="P3b-12-ONv" secondAttribute="bottom" constant="8" id="OdA-VB-4tt"/>
+                                    <constraint firstItem="P3b-12-ONv" firstAttribute="leading" secondItem="XJF-n0-ImH" secondAttribute="leading" constant="23" id="QVX-6b-cYt"/>
+                                    <constraint firstItem="W1E-YQ-3p5" firstAttribute="leading" secondItem="sgH-cZ-1dg" secondAttribute="trailing" constant="8" id="QeT-JL-Ev1"/>
                                     <constraint firstAttribute="height" constant="537" id="QgZ-fM-L9I"/>
-                                    <constraint firstAttribute="trailing" secondItem="P3b-12-ONv" secondAttribute="trailing" constant="14" id="uvC-0k-alX"/>
+                                    <constraint firstItem="P3b-12-ONv" firstAttribute="leading" secondItem="IjY-sS-x2n" secondAttribute="trailing" constant="-83" id="XPS-pe-A5d"/>
+                                    <constraint firstItem="sgH-cZ-1dg" firstAttribute="leading" secondItem="P3b-12-ONv" secondAttribute="trailing" constant="-102" id="Zcv-dS-W3w"/>
+                                    <constraint firstAttribute="trailing" secondItem="W1E-YQ-3p5" secondAttribute="trailing" constant="27" id="dCv-uc-QeA"/>
+                                    <constraint firstItem="IjY-sS-x2n" firstAttribute="top" secondItem="XJF-n0-ImH" secondAttribute="top" constant="14" id="iWK-9S-YLu"/>
+                                    <constraint firstItem="sgH-cZ-1dg" firstAttribute="top" secondItem="XJF-n0-ImH" secondAttribute="top" constant="9" id="qod-Tc-dgr"/>
+                                    <constraint firstAttribute="trailing" secondItem="P3b-12-ONv" secondAttribute="trailing" constant="8" id="uvC-0k-alX"/>
                                 </constraints>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="lKY-GB-MXw" appends="YES" id="lR0-bm-JuX"/>
@@ -260,6 +298,10 @@
                         <outlet property="moviePoster" destination="2sw-lm-09T" id="yoG-fL-bfA"/>
                         <outlet property="movieSummary" destination="P3b-12-ONv" id="iP4-gT-n7B"/>
                         <outlet property="panGesture" destination="lKY-GB-MXw" id="u1s-Uu-Ght"/>
+                        <outlet property="popularity" destination="W1E-YQ-3p5" id="1An-Jy-Byc"/>
+                        <outlet property="rating" destination="IjY-sS-x2n" id="niw-Ea-CJI"/>
+                        <outlet property="ratingStar" destination="DhK-tI-GKN" id="gbh-gW-cQN"/>
+                        <outlet property="tomato" destination="sgH-cZ-1dg" id="2He-mh-3Hz"/>
                         <outlet property="ytPlayerView" destination="mW2-4i-Cp4" id="sEq-Ns-W68"/>
                     </connections>
                 </viewController>
@@ -292,6 +334,10 @@
             <point key="canvasLocation" x="133.59999999999999" y="-545.57721139430294"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="star" width="25" height="25"/>
+        <image name="tomato" width="25" height="25"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dgS-gu-D6o"/>
     </inferredMetricsTieBreakers>

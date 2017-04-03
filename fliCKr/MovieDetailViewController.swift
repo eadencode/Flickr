@@ -12,8 +12,12 @@ import youtube_ios_player_helper
 
 class MovieDetailViewController: UIViewController  {
     
+    @IBOutlet weak var tomato: UIImageView!
+    @IBOutlet weak var popularity: UILabel!
 
     @IBOutlet weak var ytPlayerView: YTPlayerView!
+    @IBOutlet weak var ratingStar: UIImageView!
+    @IBOutlet weak var rating: UILabel!
    
     @IBOutlet var panGesture: UIPanGestureRecognizer!
     @IBOutlet weak var moviePoster: UIImageView!
@@ -140,13 +144,15 @@ class MovieDetailViewController: UIViewController  {
 //        movieSummary.text = movie?.overview
         // create attributed string
         if let mv = movie   {
-            let movieTitle = "\(mv.title)\\n"
-            let movieDetails = "\(mv.title) \(mv.overview)"
+            let movieDetails = "| \(mv.title) | \(mv.overview)"
             let boldAttributedString = NSMutableAttributedString(string: movieDetails)
-            boldAttributedString.addAttribute(NSFontAttributeName, value: UIFont(name: "Avenir-Heavy", size: 19)!, range: (movieDetails as NSString).range(of: movieTitle))
+            boldAttributedString.addAttribute(NSFontAttributeName, value: UIFont(name: "Avenir-Heavy", size: 22)!, range: (movieDetails as NSString).range(of: "| \(mv.title) |"))
             
             // set attributed text on a UILabel
             movieSummary.attributedText = boldAttributedString
+            rating.text = "\(Int(mv.rating!))"
+            popularity.text = "\(String(format: "%.0f", mv.popularity!))"
+            
             
         }
         
