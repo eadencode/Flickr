@@ -32,6 +32,7 @@ The following **additional** features are implemented:
 - [X] On Detail Screens - pan the details Animation (Up/Down) using spring velocity/dampening  and Fade.
 - [x] Trailer from Youtube on Details Screen on Pan up. (Uses movieDB api to get id of youtube trailer for the movie).
 - [x] Both Collection/Table views - same pull to refresh/infinite scroll , and data inputs.
+- [x] Added rating and popularity to screens.
 
 
 
