@@ -2,7 +2,7 @@
 
 **fliCKr** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **~10** hours spent in total
+Time spent: **~12** hours spent in total 
 
 ## User Stories
 
@@ -39,7 +39,12 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0
+
+[Dropbox Link for mov file](https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0) 
+
+<img src='https://github.com/eadencode/Flickr/blob/master/flickrgif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
 ## Notes
@@ -53,6 +58,7 @@ https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0
 - ICSPullToRefresh
 - JGProgressHUD
 - youtube-ios-player-helper
+
 
 ## License
 
