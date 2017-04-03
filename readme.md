@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 
-[Dropbox Link for mov file] (https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0) 
+[Dropbox Link for mov file](https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0) 
 
 <img src='https://github.com/eadencode/Flickr/blob/master/flickrgif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
