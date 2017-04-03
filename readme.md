@@ -39,10 +39,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0
 
-<video controls="controls" width="800" height="600" name="Video Name" src="https://www.dropbox.com/s/7o0z28a4mod4fqo/flicker.mov?dl=0"></video>
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
