@@ -129,6 +129,9 @@ class MoviesListControllerViewController: UIViewController ,UITableViewDelegate,
             if(moviesArg.isEmpty) {
                 self.networkError.isHidden = false
             }else {
+                if(MovieDB.sharedInstance.currentPage == 1) {
+                    self.movies = [Movie]()
+                }
                 self.movies.append(contentsOf: moviesArg)
                 self.moviesOriginal = self.movies
                 self.moviesList.reloadData()
@@ -196,6 +199,7 @@ class MoviesListControllerViewController: UIViewController ,UITableViewDelegate,
             movieCell.movieTitle.sizeToFit()
             movieCell.selectionStyle = UITableViewCellSelectionStyle.gray
             movieCell.accessoryType = UITableViewCellAccessoryType.none
+            movieCell.rating.text = "\(rowMovie.rating!)"
             
         }
         return movieCell
